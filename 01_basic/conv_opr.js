@@ -65,3 +65,5 @@ console.log(booleanis);
 
 // 1 - true ; 0 - false ; "0 "- true
 // "" - false ; null -> false
+
+
