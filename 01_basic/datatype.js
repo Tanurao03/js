@@ -24,3 +24,37 @@ console.log(typeof age);
 console.log(typeof name);
 console.log(typeof null);
 console.log(typeof undefined);
+
+const id = Symbol('123');   // unique
+const id2 = Symbol('123');
+
+console.log(id == id2);
+//JavaScript is dynamically typed:
+
+//primitive
+
+// 7 types : strung, no. n Boolean, null, undefined, symbol, BigInt
+
+//
+
+// Reference 
+
+// array, objects, functions, 
+
+const tvd_chr = ["Stefan", "Damon", "Elena"];
+let my_obj = {
+    name: "Tanu",
+    age: 20,
+}
+
+const myFunction = function(){
+    console.log("Hello guyssss");
+}
+
+//(function) object
+
+console.log(typeof tvd_chr);
+
+//object
+
+//stack(primitive), Heap(non-primitive)->reference 
